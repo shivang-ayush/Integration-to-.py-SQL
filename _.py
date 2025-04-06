@@ -34,8 +34,7 @@ CREATE TABLE IF NOT EXISTS school (
     Full_Address TEXT NOT NULL,
     Height INTEGER NOT NULL,
     Weight INTEGER NOT NULL,
-    Blood_group TEXT NOT NULL,
-                                            
+    Blood_group TEXT NOT NULL                                            
 )
 ''')
 
