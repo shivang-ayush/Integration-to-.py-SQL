@@ -1,7 +1,7 @@
-import sqlite3
+import mysql.connector
 
 # Connect to the database (or create it if it doesn't exist)
-connection = sqlite3.connect('minedb.db')
+connection = mysql.connector.connect('minedb.db')
 
 # Create a cursor object to interact with the database
 cursor = connection.cursor()
